@@ -1,5 +1,5 @@
-let usuario = require ('./usuario);
-function removerUsuario(index){
-    usuario.splice(index,1)
+let usuario = require ('./usuarios');
+function removerUsuario(indexRemover){
+    usuario.splice(indexRemover,1)
 }
 module.exports = removerUsuario;
